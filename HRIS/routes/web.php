@@ -32,3 +32,19 @@ Route::get('/indexHR', function () {
 Route::get('/EmpProf', function () {
     return view('HR/EmpProf');
 });
+
+Route::get('/indexEmp', function () {
+    return view('indexEmp');
+});
+Route::get('/PdsOfEmp', function () {
+    return view('Employee/PdsOfEmp');
+});
+Route::get('/empservrec', function () {
+    return view('Employee/empservrec');
+});
+Route::get('/empleavesum', function () {
+    return view('Employee/empleavesum');
+});
+Route::get('/empleaveform', function () {
+    return view('Employee/empleaveform');
+});

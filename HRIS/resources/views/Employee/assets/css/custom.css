@@ -378,7 +378,6 @@ line-height: 1.428571429;
 
 /* table for employee table */
 table {
-    
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
@@ -387,7 +386,6 @@ table {
 td, th {
     text-align: left;
     padding: 8px;
-	
 }
 .question{
     font-weight: bolder;

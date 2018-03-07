@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
       <meta charset="utf-8" />
@@ -25,13 +25,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="indexHR">Human Resource</a> 
+                <a class="navbar-brand" href="indexHR">Employee</a> 
             </div>
   <div style="color: white;
 padding: 15px 50px 5px 50px;
 float: right;
 font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-danger square-btn-adjust">Logout</a> </div>
-        </nav>   
+        </nav>     
            <!-- /. NAV TOP  -->
                 <nav class="navbar-default navbar-side" role="navigation">
             <div class="sidebar-collapse">
@@ -42,19 +42,19 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
 				
 					
                     <li>
-                        <a   href="indexHR"><i class="fa fa-dashboard fa-3x"></i> Dashboard</a>
+                        <a   href="indexEmp"><i class="fa fa-dashboard fa-3x"></i> Dashboard</a>
                     </li>
                      <li>
-                        <a  href="PendingLeaves"><i class="fa fa-file-text fa-3x"></i> Pending Leaves</a>
+                        <a class="active-menu" href="PdsOfEmp.html"><i class="fa fa-file-text fa-3x"></i> Personal Data Sheet</a>
                     </li>
                     <li>
-                        <a  href="RandF"><i class="fa fa-qrcode fa-3x"></i> Reports and Forms </a>
+                        <a  href="empleaveform"><i class="fa fa-qrcode fa-3x"></i> Leave Form</a>
                     </li>
                       <li  >
-                        <a class="active-menu" href="Employees"><i class="fa  fa-users fa-3x"></i> Employees</a>
+                        <a  href="empleavesum"><i class="fa  fa-users fa-3x"></i> Leave Summary</a>
                     </li>		  
                   <li  >
-                        <a  href="blank.html"><i class="fa fa-square-o fa-3x"></i> Blank Page</a>
+                        <a  href="empservrec"><i class="fa fa-square-o fa-3x"></i> Service Record</a>
                     </li>	
                 </ul>
                
@@ -62,9 +62,9 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
             
         </nav>  
         <!-- /. NAV SIDE  -->
-        <div id="page-wrapper" >
+         <div id="page-wrapper" >
             <div id="page-inner">
-            
+            <div class="row">
         <div id="paper">
       <div class="paper-top"></div>
       <div id="paper-mid">
@@ -93,47 +93,49 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
 
                             <div class="tab-content">
                                 <div class="tab-pane fade active in" id="page1">
-                                    <h4>Personal Information</h4>
-                                    <table> 
+                                    <h4>Personal Information</h4><div style="text-align: right">
+    <a href="#myModal" data-toggle="modal" class="btn btn-warning btn-sm">edit</a>
+</div>
+                                    <table>
                                     <tr>
                                     <td class ="question">First Name:</td>
-                                        <td>Amani Soy</td>
+                                        <td>asd</td>
                                     <td class ="question">Date of Birth:</td>
-                                        <td>May 25, 1998</td>
+                                        <td>dsadsad</td>
                                         </tr>
                                     <tr>
                                     <td class ="question">Middle Name:</td>
-                                        <td>Balbuena</td>
+                                        <td></td>
                                     <td class ="question">Place of Birth:</td>
-                                        <td>Siargao City</td>
+                                        <td></td>
                                         </tr>
                                     <tr>
                                     <td class ="question">Last Name:</td>
-                                        <td>Adonis</td>
+                                        <td></td>
                                     <td class ="question">Civil Status:</td>
-                                        <td>Complicated</td>
+                                        <td></td>
                                         </tr>
                                         <tr>
                                     <td class ="question">Extension Name:</td>
-                                        <td>Sr</td>
+                                        <td></td>
                                     <td class ="question">Citizenship:</td>
-                                        <td>Filipino</td>
+                                        <td></td>
                                         </tr>
                                         <tr>
                                     <td class ="question">Age:</td>
-                                        <td>19</td>
+                                        <td></td>
                                     <td class ="question">Height:</td>
-                                        <td>5'11</td>
+                                        <td></td>
                                         </tr>
                                         <tr>
                                     <td class ="question">Gender:</td>
-                                        <td>Male</td>
+                                        <td></td>
                                     <td class ="question">Weight:</td>
-                                        <td>58 Kgs</td>
+                                        <td></td>
                                         </tr>
                                         <tr>
                                     <td class ="question">Mobile Number:</td>
-                                        <td>09222222222</td>
+                                        <td></td>
                                     <td class ="question">Email:</td>
                                         <td></td>
                                         </tr>
@@ -147,7 +149,7 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                                          <td class ="question">Spouse's Name:</td>
                                         <td></td>
                                         <td class ="question">Occupation:</td>
-                                        <td>fdsfdsfds</td>
+                                        <td></td>
                                         </tr>
                                         <tr>
                                      <td class ="question">Date of Birth:</td>
@@ -195,9 +197,15 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                                         <td></td>
                                         <td></td>
                                         <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
                                         </tr>
                                         <tr>
                                         <td>Secondary</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
                                         <td></td>
                                         <td></td>
                                         <td></td>
@@ -206,21 +214,27 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                                         <td></td>
                                         <td></td>
                                         <td></td>
-                                
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
                                         </tr>
                                         <tr>
                                         <td>College</td>
                                         <td></td>
                                         <td></td>
                                         <td></td>
-                                       
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
                                         </tr>
                                         <tr>
                                         <td>Graduate Studies</td>
                                         <td></td>
                                         <td></td>
                                         <td></td>
-    
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
                                         </tr>
                                         <tr>
                                         <th>HIGHEST LEVEL/ UNITS EARNED</th>
@@ -243,6 +257,7 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                                         <td></td>
                                         </tr>
                                     </table>
+
                                 </div>
                                 <div class="tab-pane fade" id="page2">
                                     <h4>Civil Service Eligibility</h4>
@@ -257,10 +272,8 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                                         <td></td>
                                         <td></td>
                                         <td></td>
-                                        <td></td>
                                         </tr>
                                         <tr>
-                                    <td></td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -269,13 +282,23 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                                             <td></td>
                                             <td></td>
                                             <td></td>
-                                            <td></td>
                                         </tr>
-                                        
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        </tr>
+                                        <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        </tr>
                                     <tr>
                                         <th>LICENSE IF APPLICABLE</th>
                                         </tr>
                                     <tr>
+                                        <td></td>
+                                        <td></td>
                                         <td></td>
                                         </tr>
                                     </table>
@@ -292,10 +315,8 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                                         <td></td>
                                         <td></td>
                                         <td></td>
-                                        <td></td>
                                         </tr>
                                         <tr>
-                                    <td></td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -304,11 +325,9 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                                     <td></td>
                                             <td></td>
                                             <td></td>
-                                            <td></td>
                                         </tr>
                                     <tr>
                                     <td></td>
-                                        <td></td>
                                         <td></td>
                                         <td></td>
                                         </tr>
@@ -426,8 +445,10 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                                     <tr>
                                         <td></td>
                                         <td></td>
+                                        <td></td>
                                         </tr>
                                     <tr>
+                                        <td></td>
                                         <td></td>
                                         <td></td>
                                         </tr>
@@ -675,10 +696,190 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                     </div>
                 </div>
           <!-- End Personal Information -->
+			<!--Modal Content -->
+                                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                            <h4 class="modal-title" id="myModalLabel">Edit Personal Data Sheet</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <table>
+																<h4>Personal Information</h4>
+																<tr>
+																<td class ="question">First Name:<form><input type="text" name="usrname"></form></td>
+																	
+																<td class ="question">Date of Birth:<form><input type="text" name="usrname"></form></td>
+																	
+																	</tr>
+																<tr>
+																<td class ="question">Middle Name:<form><input type="text" name="usrname"></form></td>
+																	
+																<td class ="question">Place of Birth:<form><input type="text" name="usrname"></form></td>
+																	
+																	</tr>
+																<tr>
+																<td class ="question">Last Name:<form><input type="text" name="usrname"></form></td>
+																	
+																<td class ="question">Civil Status:<form><input type="text" name="usrname"></form></td>
+																	
+																	</tr>
+																	<tr>
+																<td class ="question">Extension Name:<form><input type="text" name="usrname"></form></td>
+																	
+																<td class ="question">Citizenship:<form><input type="text" name="usrname"></form></td>
+																	
+																	</tr>
+																	<tr>
+																<td class ="question">Age:<form><input type="text" name="usrname"></form></td>
+																	
+																<td class ="question">Height:<form><input type="text" name="usrname"></form></td>
+																	
+																	</tr>
+																	<tr>
+																<td class ="question">Gender:<form><input type="text" name="usrname"></form></td>
+																	
+																<td class ="question">Weight:<form><input type="text" name="usrname"></form></td>
+																	
+																	</tr>
+																	<tr>
+																<td class ="question">Mobile Number:<form><input type="text" name="usrname"></form></td>
+																	
+																<td class ="question">Email:<form><input type="text" name="usrname"></form></td>
+																	
+																	</tr>
+																	 
+																</table>
+															<hr />
+
+																 <h4>Family Background</h4>
+																<table>
+																<tr>
+																	 <td class ="question">Spouse's Name:</td>
+																	<td></td>
+																	<td class ="question">Occupation:</td>
+																	<td></td>
+																	</tr>
+																	<tr>
+																 <td class ="question">Date of Birth:</td>
+																	<td></td>
+																<td class ="question">Employer/BusinessName:</td>
+																	<td></td>
+																	</tr>
+																	<tr>
+																	<td class ="question">Business Address:</td>
+																			 <td></td>
+																	<td class ="question">Telephone Number:</td>
+																	<td></td>
+																	</tr>
+																<tr>
+																		 <td class ="question">Father's Name:</td>
+																			 <td></td>
+																		<td class ="question">Mother's Name:</td>
+																		 <td></td>
+																	</tr>
+
+																	<tr>
+																	<th>Name of Children</th>
+																	<th>Birthdate</th>
+																	</tr>
+																	<tr>
+																	<td>Norman</td>
+																	<td>04/23/2001</td>
+																	</tr>
+																	<tr>
+																	<td>Ampe</td>
+																	<td>09/06/2012</td>
+																	</tr>
+																</table>
+																<hr />
+																<h4>Educational Background</h4>
+																<table>
+																<tr>
+																	<th>LEVEL</th>
+																	<th>NAME OF SCHOOL</th>
+																	<th>BASIC EDUCATION/DEGREE COURSE</th>
+																	<th>PERIOD OF ATTENDANCE</th>
+																	</tr>
+																	<tr>
+																	<td>Elementary</td>
+																	<td></td>
+																	<td></td>
+																	<td></td>
+																	<td></td>
+																	<td></td>
+																	<td></td>
+																	</tr>
+																	<tr>
+																	<td>Secondary</td>
+																	<td></td>
+																	<td></td>
+																	<td></td>
+																	<td></td>
+																	<td></td>
+																	<td></td>
+																	<tr>
+																	<td>Vocational/Trade Course</td>
+																	<td></td>
+																	<td></td>
+																	<td></td>
+																	<td></td>
+																	<td></td>
+																	<td></td>
+																	</tr>
+																	<tr>
+																	<td>College</td>
+																	<td></td>
+																	<td></td>
+																	<td></td>
+																	<td></td>
+																	<td></td>
+																	<td></td>
+																	</tr>
+																	<tr>
+																	<td>Graduate Studies</td>
+																	<td></td>
+																	<td></td>
+																	<td></td>
+																	<td></td>
+																	<td></td>
+																	<td></td>
+																	</tr>
+																	<tr>
+																	<th>HIGHEST LEVEL/ UNITS EARNED</th>
+																	<th>YEAR GRADUATED</th>
+																	<th>SCHOLARSHIP/ACADEMIC HONORS RECEIVED</th>
+																	</tr>
+																	<tr>
+																	<td></td>
+																	<td></td>
+																	<td></td>
+																	</tr>
+																	<tr>
+																	<td></td>
+																	<td></td>
+																	<td></td>
+																	</tr>
+																	<tr>
+																	<td></td>
+																	<td></td>
+																	<td></td>
+																	</tr>
+																</table>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <a href="#" class="btn btn-success">Save</a>
+                                                            <a href="#" class="btn btn-danger">Cancel</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                    <!--End of Modal -->
         </div>
         </div>
       </div>
-            
+            </div>
         </div>
                
     </div>
