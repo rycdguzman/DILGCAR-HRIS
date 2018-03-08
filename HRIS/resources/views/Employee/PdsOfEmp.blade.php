@@ -81,22 +81,31 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                         </div>
                         <div class="panel-body">
                             <ul class="nav nav-tabs">
-                                <li class="active"><a href="#page1" data-toggle="tab">page1</a>
+                                <li class="active"><a href="#page1" data-toggle="tab">Page 1</a>
                                 </li>
-                                <li class=""><a href="#page2" data-toggle="tab">page2</a>
+                                <li class=""><a href="#page2" data-toggle="tab">Page 2</a>
                                 </li>
-                                <li class=""><a href="#page3" data-toggle="tab">page3</a>
+                                <li class=""><a href="#page3" data-toggle="tab">Page 3</a>
                                 </li>
-                                <li class=""><a href="#page4" data-toggle="tab">page4</a>
+                                <li class=""><a href="#page4" data-toggle="tab">Page 4</a>
                                 </li>
                             </ul>
 
                             <div class="tab-content">
                                 <div class="tab-pane fade active in" id="page1">
-                                    <h4>Personal Information</h4><div style="text-align: right">
-    <a href="#myModal" data-toggle="modal" class="btn btn-warning btn-sm">edit</a>
-</div>
-                                    <table>
+									<br>
+									<div style="text-align: right">
+									<button class="btn btn-primary" data-toggle="modal" data-target="#myModalEditP1"><i class="fa fa-edit "></i> Edit</button></div>
+									<br>
+									<div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapsePersonal" class="collapsed">Personal Information</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapsePersonal" class="panel-collapse collapse" style="height: 0px;">
+                                        <div class="panel-body">
+                                            <table>
                                     <tr>
                                     <td class ="question">First Name:</td>
                                         <td>asd</td>
@@ -141,10 +150,20 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                                         </tr>
                                          <hr>
                                     </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                    
                                 <hr />
-
-                                     <h4>Family Background</h4>
-                                    <table>
+									<div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFamily" class="collapsed">Family Background</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseFamily" class="panel-collapse collapse" style="height: 0px;">
+                                        <div class="panel-body">
+                                            <table>
                                     <tr>
                                          <td class ="question">Spouse's Name:</td>
                                         <td></td>
@@ -183,9 +202,20 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                                         <td>09/06/2012</td>
                                         </tr>
                                     </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                    
                                     <hr />
-                                    <h4>Educational Background</h4>
-                                    <table>
+									<div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseEdu" class="collapsed">Educational Background</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseEdu" class="panel-collapse collapse" style="height: 0px;">
+                                        <div class="panel-body">
+                                            <table>
                                     <tr>
                                         <th>LEVEL</th>
                                         <th>NAME OF SCHOOL</th>
@@ -257,11 +287,32 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                                         <td></td>
                                         </tr>
                                     </table>
-
+                                        </div>
+                                    </div>
                                 </div>
+                                    		<div style="text-align: right">
+												<a href="#page2" data-toggle="tab" class="btn btn-default btn-sm">2</a>
+												<a href="#page3" data-toggle="tab" class="btn btn-default btn-sm">3</a>
+												<a href="#page4" data-toggle="tab" class="btn btn-default btn-sm">4</a>
+											</div>
+                                </div>
+								
+								<!---End Of Page1 -->
+								
                                 <div class="tab-pane fade" id="page2">
-                                    <h4>Civil Service Eligibility</h4>
-                                    <table>
+									<br>
+									<div style="text-align: right">
+									<button class="btn btn-primary" data-toggle="modal" data-target="#myModalEditP2"><i class="fa fa-edit "></i> Edit</button></div>
+									<br>
+									<div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseCS" class="collapsed">Civil Service Eligibility</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseCS" class="panel-collapse collapse" style="height: 0px;">
+                                        <div class="panel-body">
+                                            <table>
                                         <tr>
                                         <th>CAREER SERVICE</th>
                                         <th>RATING</th>
@@ -302,9 +353,21 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                                         <td></td>
                                         </tr>
                                     </table>
-                                    
-                                    <h4>Work Experience</h4>
-                                    <table>
+                                        </div>
+                                    </div>
+                                </div>
+									
+                                    <hr>
+									
+									<div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseWE" class="collapsed">Work Experience</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseWE" class="panel-collapse collapse" style="height: 0px;">
+                                        <div class="panel-body">
+                                            <table>
                                         <tr>
                                         <th>INCLUSIVE DATES</th>
                                         <th>POSITION TITLE</th>
@@ -352,10 +415,35 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                                         <td></td>
                                         </tr>
                                     </table>
+                                        </div>
+                                    </div>
                                 </div>
+									  
+                                			<div style="text-align: right">
+												<a href="#page1" data-toggle="tab" class="btn btn-default btn-sm">1</a>
+												<a href="#page3" data-toggle="tab" class="btn btn-default btn-sm">3</a>
+												<a href="#page4" data-toggle="tab" class="btn btn-default btn-sm">4</a>
+											</div>
+                                </div>
+								
+								<!---End Of Page2 -->
+								
+								
+								
                                 <div class="tab-pane fade" id="page3">
-                                     <h4>Voluntary Work Or Involvement In Civic/ Non Government/People/Voluntary ORGANIZATION</h4>
-                                    <table>
+									<br>
+									<div style="text-align: right">
+									<button class="btn btn-primary" data-toggle="modal" data-target="#myModalEditP3"><i class="fa fa-edit "></i> Edit</button></div>
+									<br>
+									<div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseVW" class="collapsed">Voluntary Work Or Involvement In Civic/ Non Government/People/Voluntary ORGANIZATION</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseVW" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <table>
                                         <tr>
                                         <th>Name & Address of Organization</th>
                                         <th>Inclusive Dates</th>
@@ -414,8 +502,21 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                                         <td></td>
                                         </tr>
                                     </table>
-                                     <h4>Learning And Development(L&O) Interventions/Training Programs Attended</h4>
-                                    <table>
+                                        </div>
+                                    </div>
+                                </div>
+                                     
+									
+									<hr>
+									<div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseLD" class="collapsed">Learning And Development(L&O) Interventions/Training Programs Attended</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseLD" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <table>
                                         <tr>
                                         <th>Title Of Learning and Development Interventions/Training Programs</th>
                                         <th>Inclusive Dates Of Attendance</th>
@@ -453,8 +554,20 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                                         <td></td>
                                         </tr>
                                     </table>
-                                     <h4>Other Information</h4>
-                                    <table>
+									<hr>
+                                        </div>
+                                    </div>
+                                </div>
+                                     <hr>
+                                    <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOI" class="collapsed">Other Information</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseOI" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <table>
                                         <tr>
                                         <th>Special Skills and Hobbies</th>
                                         <th>Non-Academic Distinctions/Recognition</th>
@@ -510,7 +623,19 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                                         <td></td>
                                         </tr>
                                     </table>
+                                        </div>
+                                    </div>
                                 </div>
+                                     
+                                    		<div style="text-align: right">
+												<a href="#page1" data-toggle="tab" class="btn btn-default btn-sm">1</a>
+												<a href="#page2" data-toggle="tab" class="btn btn-default btn-sm">2</a>
+												<a href="#page4" data-toggle="tab" class="btn btn-default btn-sm">4</a>
+											</div>
+                                </div>
+								
+									<!---End Of Page3 -->
+								
                                 <div class="tab-pane fade" id="page4">
                                     <h4>PDS Questionaire</h4>
                                     <table>
@@ -690,6 +815,11 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                            
                                     </table>  
                                     </table>
+											<div style="text-align: right">
+												<a href="#page1" data-toggle="tab" class="btn btn-default btn-sm">1</a>
+												<a href="#page2" data-toggle="tab" class="btn btn-default btn-sm">2</a>
+												<a href="#page3" data-toggle="tab" class="btn btn-default btn-sm">3</a>
+											</div>
                                 </div>
                             </div>
                         </div>
@@ -697,7 +827,8 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                 </div>
           <!-- End Personal Information -->
 			<!--Modal Content -->
-                                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<!--Modal page1 -->
+                                            <div class="modal fade" id="myModalEditP1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                                                 <div class="modal-dialog">
                                                     <div class="modal-content">
                                                         <div class="modal-header">
@@ -756,27 +887,27 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
 																 <h4>Family Background</h4>
 																<table>
 																<tr>
-																	 <td class ="question">Spouse's Name:</td>
+																	 <td class ="question">Spouse's Name:<form><input type="text" name="usrname"></form></td>
 																	<td></td>
-																	<td class ="question">Occupation:</td>
-																	<td></td>
-																	</tr>
-																	<tr>
-																 <td class ="question">Date of Birth:</td>
-																	<td></td>
-																<td class ="question">Employer/BusinessName:</td>
+																	<td class ="question">Occupation:<form><input type="text" name="usrname"></form></td>
 																	<td></td>
 																	</tr>
 																	<tr>
-																	<td class ="question">Business Address:</td>
+																 <td class ="question">Date of Birth:<form><input type="text" name="usrname"></form></td>
+																	<td></td>
+																<td class ="question">Employer/BusinessName:<form><input type="text" name="usrname"></form></td>
+																	<td></td>
+																	</tr>
+																	<tr>
+																	<td class ="question">Business Address:<form><input type="text" name="usrname"></form></td>
 																			 <td></td>
-																	<td class ="question">Telephone Number:</td>
+																	<td class ="question">Telephone Number:<form><input type="text" name="usrname"></form></td>
 																	<td></td>
 																	</tr>
 																<tr>
-																		 <td class ="question">Father's Name:</td>
+																		 <td class ="question">Father's Name:<form><input type="text" name="usrname"></form></td>
 																			 <td></td>
-																		<td class ="question">Mother's Name:</td>
+																		<td class ="question">Mother's Name:<form><input type="text" name="usrname"></form></td>
 																		 <td></td>
 																	</tr>
 
@@ -785,12 +916,12 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
 																	<th>Birthdate</th>
 																	</tr>
 																	<tr>
-																	<td>Norman</td>
-																	<td>04/23/2001</td>
+																	<td></td>
+																	<td></td>
 																	</tr>
 																	<tr>
-																	<td>Ampe</td>
-																	<td>09/06/2012</td>
+																	<td></td>
+																	<td></td>
 																	</tr>
 																</table>
 																<hr />
@@ -804,44 +935,44 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
 																	</tr>
 																	<tr>
 																	<td>Elementary</td>
-																	<td></td>
-																	<td></td>
-																	<td></td>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	<td><form><input type="text" name="usrname"></form></td>
 																	<td></td>
 																	<td></td>
 																	<td></td>
 																	</tr>
 																	<tr>
 																	<td>Secondary</td>
-																	<td></td>
-																	<td></td>
-																	<td></td>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	<td><form><input type="text" name="usrname"></form></td>
 																	<td></td>
 																	<td></td>
 																	<td></td>
 																	<tr>
 																	<td>Vocational/Trade Course</td>
-																	<td></td>
-																	<td></td>
-																	<td></td>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	<td><form><input type="text" name="usrname"></form></td>
 																	<td></td>
 																	<td></td>
 																	<td></td>
 																	</tr>
 																	<tr>
 																	<td>College</td>
-																	<td></td>
-																	<td></td>
-																	<td></td>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	<td><form><input type="text" name="usrname"></form></td>
 																	<td></td>
 																	<td></td>
 																	<td></td>
 																	</tr>
 																	<tr>
 																	<td>Graduate Studies</td>
-																	<td></td>
-																	<td></td>
-																	<td></td>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	<td><form><input type="text" name="usrname"></form></td>
 																	<td></td>
 																	<td></td>
 																	<td></td>
@@ -852,6 +983,66 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
 																	<th>SCHOLARSHIP/ACADEMIC HONORS RECEIVED</th>
 																	</tr>
 																	<tr>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	</tr>
+																	<tr>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	</tr>
+																	<tr>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	</tr>
+																</table>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <a href="#" class="btn btn-success">Save</a>
+                                                            <a href="#" class="btn btn-danger">Cancel</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                    		<!--Modal Page2-->
+			
+											<div class="modal fade" id="myModalEditP2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                            <h4 class="modal-title" id="myModalLabel">Edit Personal Data Sheet</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="panel-body">
+																<h4>Civil Service Eligibility</h4>
+																		<table>
+																	<tr>
+																	<th>CAREER SERVICE</th>
+																	<th>RATING</th>
+																	<th>DATE OF EXAMINATION</th>
+																	<th>PLACE OF EXAMINATION</th>
+																	</tr>
+																<tr>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	</tr>
+																	<tr>
+																<td><form><input type="text" name="usrname"></form></td>
+																<td><form><input type="text" name="usrname"></form></td>
+																<td><form><input type="text" name="usrname"></form></td>
+																<td><form><input type="text" name="usrname"></form></td>
+																	</tr>
+																	<tr>    
+																		<td></td>
+																		<td></td>
+																		<td></td>
+																	</tr>
+																<tr>
 																	<td></td>
 																	<td></td>
 																	<td></td>
@@ -861,12 +1052,268 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
 																	<td></td>
 																	<td></td>
 																	</tr>
+																<tr>
+																	<th>LICENSE IF APPLICABLE</th>
+																	</tr>
+																<tr>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	
+																	</tr><tr>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	
+																	</tr>
+																</table>
+																	</div>
+																
+																<hr>
+															
+																<h4>Work Experienced</h4>
+																		<div class="panel-body">
+																		<table>
 																	<tr>
+																	<th>INCLUSIVE DATES</th>
+																	<th>POSITION TITLE</th>
+																	<th>DEPARTMENT/AGENCIES/OFFICE/COMPANY</th>
+																	<th>MONTHLY SALARY</th>
+																	</tr>
+																<tr>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	</tr>
+																	<tr>
+																<td><form><input type="text" name="usrname"></form></td>
+																<td><form><input type="text" name="usrname"></form></td>
+																<td><form><input type="text" name="usrname"></form></td>
+																<td><form><input type="text" name="usrname"></form></td>
+																	</tr>
+																	<tr>    
+																<td></td>
+																		<td></td>
+																		<td></td>
+																	</tr>
+																<tr>
+																<td></td>
+																	<td></td>
+																	<td></td>
+																	</tr>
+															   <tr>
+																	<th>SALARY JOB PAY GRADE</th>
+																	<th>STATUS OF APPOINTMENT</th>
+																	<th>GOVERNMENT SERVICE</th>
+																	</tr>
+																<tr>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	</tr>
+																<tr>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	<td><form><input type="text" name="usrname"></form></td>
+																	</tr>
+																  <tr>
 																	<td></td>
 																	<td></td>
 																	<td></td>
 																	</tr>
 																</table>
+																	</div>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <a href="#" class="btn btn-success">Save</a>
+                                                            <a href="#" class="btn btn-danger">Cancel</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                    		<!--Modal Page 3-->
+											<div class="modal fade" id="myModalEditP3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                            <h4 class="modal-title" id="myModalLabel">Edit Personal Data Sheet</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <h4>Voluntary Work Or Involvement In Civic/ Non Government/People/Voluntary ORGANIZATION</h4>
+                                    <table>
+                                        <tr>
+                                        <th>Name & Address of Organization</th>
+                                        <th>Inclusive Dates</th>
+                                        <th>Number of Hours</th>
+                                        <th>Position</th>
+                                        </tr>
+                                    <tr>
+                                        <td><form><input type="text" name="usrname"></form></td>
+                                        <td><form><input type="text" name="usrname"></form></td>
+                                        <td><form><input type="text" name="usrname"></form></td>
+                                        <td><form><input type="text" name="usrname"></form></td>
+                        
+                                        </tr>
+                                        <tr>
+											<td><form><input type="text" name="usrname"></form></td>
+											<td><form><input type="text" name="usrname"></form></td>
+											<td><form><input type="text" name="usrname"></form></td>
+                                            <td><form><input type="text" name="usrname"></form></td>
+                                     
+                                          
+                                        </tr>
+                                        <tr>    
+                                    <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                           
+                                        
+                                        </tr>
+                                    <tr>
+                                    <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                  
+                                
+                                        </tr>
+                                        <tr>
+                                    <td></td>
+                                        <td></td>
+                                            <td></td>
+                                            <td></td>
+                                    
+                                
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    <tr>
+                                    <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        </tr>
+                                    </table>
+									<hr>
+                                     <h4>Learning And Development(L&O) Interventions/Training Programs Attended</h4>
+                                    <table>
+                                        <tr>
+                                        <th>Title Of Learning and Development Interventions/Training Programs</th>
+                                        <th>Inclusive Dates Of Attendance</th>
+                                        <th>Number of Hours</th>
+                                        </tr>
+                                    <tr>
+                                        <td><form><input type="text" name="usrname"></form></td>
+                                        <td><form><input type="text" name="usrname"></form></td>
+                                        <td><form><input type="text" name="usrname"></form></td>
+                                        </tr>
+                                        <tr>
+                                    <td><form><input type="text" name="usrname"></form></td>
+                                    <td><form><input type="text" name="usrname"></form></td>
+                                    <td><form><input type="text" name="usrname"></form></td> 
+                                        </tr>
+                                        <tr>    
+                                    		<td><form><input type="text" name="usrname"></form></td>
+                                            <td><form><input type="text" name="usrname"></form></td>
+                                            <td><form><input type="text" name="usrname"></form></td>
+                           
+                                        
+                                        </tr>
+                                   <tr>
+                                        <th>Type of I.D</th>
+                                        <th>Conducted/Sponsored by:</th>
+                                        </tr>
+                                    <tr>
+                                        <td><form><input type="text" name="usrname"></form></td>
+                                        <td><form><input type="text" name="usrname"></form></td>
+                                        <td><form><input type="text" name="usrname"></form></td>
+                                        </tr>
+                                    <tr>
+                                        <td><form><input type="text" name="usrname"></form></td>
+                                        <td><form><input type="text" name="usrname"></form></td>
+                                        <td><form><input type="text" name="usrname"></form></td>
+                                        </tr>
+                                    </table>
+									<hr>
+                                     <h4>Other Information</h4>
+                                    <table>
+                                        <tr>
+                                        <th>Special Skills and Hobbies</th>
+                                        <th>Non-Academic Distinctions/Recognition</th>
+                                        <th>Membership in association/organization</th>
+                                        </tr>
+                                    <tr>
+                                        <td><form><input type="text" name="usrname"></form></td>
+                                        <td><form><input type="text" name="usrname"></form></td>
+                                        <td><form><input type="text" name="usrname"></form></td>
+                                
+                        
+                                        </tr>
+                                        <tr>
+                                    <td><form><input type="text" name="usrname"></form></td>
+                                    <td><form><input type="text" name="usrname"></form></td>
+                                    <td><form><input type="text" name="usrname"></form></td>
+                         
+                                     
+                                          
+                                        </tr>
+                                        <tr>    
+                                    <td></td>
+                                            <td></td>
+                                            <td></td>
+                                   
+                           
+                                        
+                                        </tr>
+                                    <tr>
+                                    <td></td>
+                                        <td></td>
+                                        <td></td>
+                                 
+                                
+                                        </tr>
+                                        <tr>
+                                    <td></td>
+                                        <td></td>
+                                            <td></td>
+                                     
+                                    
+                                
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                
+                                        </tr>
+                                    <tr>
+                                    <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        </tr>
+                                    </table>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <a href="#" class="btn btn-success">Save</a>
+                                                            <a href="#" class="btn btn-danger">Cancel</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+			
+                    		<!--Modal Page 4-->
+			<div class="modal fade" id="myModalEditP2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                            <h4 class="modal-title" id="myModalLabel">Edit Personal Data Sheet</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            
                                                         </div>
                                                         <div class="modal-footer">
                                                             <a href="#" class="btn btn-success">Save</a>

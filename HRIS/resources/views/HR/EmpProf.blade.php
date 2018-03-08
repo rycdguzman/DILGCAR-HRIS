@@ -64,7 +64,7 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
         <!-- /. NAV SIDE  -->
         <div id="page-wrapper" >
             <div id="page-inner">
-            
+            <div class="row">
         <div id="paper">
       <div class="paper-top"></div>
       <div id="paper-mid">
@@ -75,79 +75,103 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
               <br>
           </div>
             <div class="col-md-12">
+				<div style="text-align: right">
+				  <button class="btn btn-default"><i class=" fa fa-file-text "></i> Generate</button>
+				  <button class="btn btn-default"><i class=" fa fa-list "></i> Plantilla</button>
+				  <button class="btn btn-default"><i class=" fa fa-file "></i> Service Record</button>
+			  </div>
+				<br>
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             Personal Datasheet
                         </div>
                         <div class="panel-body">
                             <ul class="nav nav-tabs">
-                                <li class="active"><a href="#page1" data-toggle="tab">page1</a>
+                                <li class="active"><a href="#page1" data-toggle="tab">Page 1</a>
                                 </li>
-                                <li class=""><a href="#page2" data-toggle="tab">page2</a>
+                                <li class=""><a href="#page2" data-toggle="tab">Page 2</a>
                                 </li>
-                                <li class=""><a href="#page3" data-toggle="tab">page3</a>
+                                <li class=""><a href="#page3" data-toggle="tab">Page 3</a>
                                 </li>
-                                <li class=""><a href="#page4" data-toggle="tab">page4</a>
+                                <li class=""><a href="#page4" data-toggle="tab">Page 4</a>
                                 </li>
                             </ul>
 
                             <div class="tab-content">
                                 <div class="tab-pane fade active in" id="page1">
-                                    <h4>Personal Information</h4>
-                                    <table> 
+									<br>
+									<div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapsePersonal" class="collapsed">Personal Information</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapsePersonal" class="panel-collapse collapse" style="height: 0px;">
+                                        <div class="panel-body">
+                                            <table>
                                     <tr>
                                     <td class ="question">First Name:</td>
-                                        <td>Amani Soy</td>
+                                        <td>asd</td>
                                     <td class ="question">Date of Birth:</td>
-                                        <td>May 25, 1998</td>
+                                        <td>dsadsad</td>
                                         </tr>
                                     <tr>
                                     <td class ="question">Middle Name:</td>
-                                        <td>Balbuena</td>
+                                        <td></td>
                                     <td class ="question">Place of Birth:</td>
-                                        <td>Siargao City</td>
+                                        <td></td>
                                         </tr>
                                     <tr>
                                     <td class ="question">Last Name:</td>
-                                        <td>Adonis</td>
+                                        <td></td>
                                     <td class ="question">Civil Status:</td>
-                                        <td>Complicated</td>
+                                        <td></td>
                                         </tr>
                                         <tr>
                                     <td class ="question">Extension Name:</td>
-                                        <td>Sr</td>
+                                        <td></td>
                                     <td class ="question">Citizenship:</td>
-                                        <td>Filipino</td>
+                                        <td></td>
                                         </tr>
                                         <tr>
                                     <td class ="question">Age:</td>
-                                        <td>19</td>
+                                        <td></td>
                                     <td class ="question">Height:</td>
-                                        <td>5'11</td>
+                                        <td></td>
                                         </tr>
                                         <tr>
                                     <td class ="question">Gender:</td>
-                                        <td>Male</td>
+                                        <td></td>
                                     <td class ="question">Weight:</td>
-                                        <td>58 Kgs</td>
+                                        <td></td>
                                         </tr>
                                         <tr>
                                     <td class ="question">Mobile Number:</td>
-                                        <td>09222222222</td>
+                                        <td></td>
                                     <td class ="question">Email:</td>
                                         <td></td>
                                         </tr>
                                          <hr>
                                     </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                    
                                 <hr />
-
-                                     <h4>Family Background</h4>
-                                    <table>
+									<div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFamily" class="collapsed">Family Background</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseFamily" class="panel-collapse collapse" style="height: 0px;">
+                                        <div class="panel-body">
+                                            <table>
                                     <tr>
                                          <td class ="question">Spouse's Name:</td>
                                         <td></td>
                                         <td class ="question">Occupation:</td>
-                                        <td>fdsfdsfds</td>
+                                        <td></td>
                                         </tr>
                                         <tr>
                                      <td class ="question">Date of Birth:</td>
@@ -181,9 +205,20 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                                         <td>09/06/2012</td>
                                         </tr>
                                     </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                    
                                     <hr />
-                                    <h4>Educational Background</h4>
-                                    <table>
+									<div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseEdu" class="collapsed">Educational Background</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseEdu" class="panel-collapse collapse" style="height: 0px;">
+                                        <div class="panel-body">
+                                            <table>
                                     <tr>
                                         <th>LEVEL</th>
                                         <th>NAME OF SCHOOL</th>
@@ -195,9 +230,15 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                                         <td></td>
                                         <td></td>
                                         <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
                                         </tr>
                                         <tr>
                                         <td>Secondary</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
                                         <td></td>
                                         <td></td>
                                         <td></td>
@@ -206,21 +247,27 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                                         <td></td>
                                         <td></td>
                                         <td></td>
-                                
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
                                         </tr>
                                         <tr>
                                         <td>College</td>
                                         <td></td>
                                         <td></td>
                                         <td></td>
-                                       
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
                                         </tr>
                                         <tr>
                                         <td>Graduate Studies</td>
                                         <td></td>
                                         <td></td>
                                         <td></td>
-    
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
                                         </tr>
                                         <tr>
                                         <th>HIGHEST LEVEL/ UNITS EARNED</th>
@@ -243,10 +290,29 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                                         <td></td>
                                         </tr>
                                     </table>
+                                        </div>
+                                    </div>
                                 </div>
+                                    		<div style="text-align: right">
+												<a href="#page2" data-toggle="tab" class="btn btn-default btn-sm">2</a>
+												<a href="#page3" data-toggle="tab" class="btn btn-default btn-sm">3</a>
+												<a href="#page4" data-toggle="tab" class="btn btn-default btn-sm">4</a>
+											</div>
+                                </div>
+								
+								<!---End Of Page1 -->
+								
                                 <div class="tab-pane fade" id="page2">
-                                    <h4>Civil Service Eligibility</h4>
-                                    <table>
+									<br>
+									<div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseCS" class="collapsed">Civil Service Eligibility</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseCS" class="panel-collapse collapse" style="height: 0px;">
+                                        <div class="panel-body">
+                                            <table>
                                         <tr>
                                         <th>CAREER SERVICE</th>
                                         <th>RATING</th>
@@ -257,10 +323,8 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                                         <td></td>
                                         <td></td>
                                         <td></td>
-                                        <td></td>
                                         </tr>
                                         <tr>
-                                    <td></td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -269,19 +333,41 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                                             <td></td>
                                             <td></td>
                                             <td></td>
-                                            <td></td>
                                         </tr>
-                                        
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        </tr>
+                                        <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        </tr>
                                     <tr>
                                         <th>LICENSE IF APPLICABLE</th>
                                         </tr>
                                     <tr>
                                         <td></td>
+                                        <td></td>
+                                        <td></td>
                                         </tr>
                                     </table>
-                                    
-                                    <h4>Work Experience</h4>
-                                    <table>
+                                        </div>
+                                    </div>
+                                </div>
+									
+                                    <hr>
+									
+									<div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseWE" class="collapsed">Work Experience</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseWE" class="panel-collapse collapse" style="height: 0px;">
+                                        <div class="panel-body">
+                                            <table>
                                         <tr>
                                         <th>INCLUSIVE DATES</th>
                                         <th>POSITION TITLE</th>
@@ -292,10 +378,8 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                                         <td></td>
                                         <td></td>
                                         <td></td>
-                                        <td></td>
                                         </tr>
                                         <tr>
-                                    <td></td>
                                     <td></td>
                                     <td></td>
                                     <td></td>
@@ -304,11 +388,9 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                                     <td></td>
                                             <td></td>
                                             <td></td>
-                                            <td></td>
                                         </tr>
                                     <tr>
                                     <td></td>
-                                        <td></td>
                                         <td></td>
                                         <td></td>
                                         </tr>
@@ -333,10 +415,32 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                                         <td></td>
                                         </tr>
                                     </table>
+                                        </div>
+                                    </div>
                                 </div>
+									  
+                                			<div style="text-align: right">
+												<a href="#page1" data-toggle="tab" class="btn btn-default btn-sm">1</a>
+												<a href="#page3" data-toggle="tab" class="btn btn-default btn-sm">3</a>
+												<a href="#page4" data-toggle="tab" class="btn btn-default btn-sm">4</a>
+											</div>
+                                </div>
+								
+								<!---End Of Page2 -->
+								
+								
+								
                                 <div class="tab-pane fade" id="page3">
-                                     <h4>Voluntary Work Or Involvement In Civic/ Non Government/People/Voluntary ORGANIZATION</h4>
-                                    <table>
+									<br>
+									<div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseVW" class="collapsed">Voluntary Work Or Involvement In Civic/ Non Government/People/Voluntary ORGANIZATION</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseVW" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <table>
                                         <tr>
                                         <th>Name & Address of Organization</th>
                                         <th>Inclusive Dates</th>
@@ -395,8 +499,21 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                                         <td></td>
                                         </tr>
                                     </table>
-                                     <h4>Learning And Development(L&O) Interventions/Training Programs Attended</h4>
-                                    <table>
+                                        </div>
+                                    </div>
+                                </div>
+                                     
+									
+									<hr>
+									<div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseLD" class="collapsed">Learning And Development(L&O) Interventions/Training Programs Attended</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseLD" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <table>
                                         <tr>
                                         <th>Title Of Learning and Development Interventions/Training Programs</th>
                                         <th>Inclusive Dates Of Attendance</th>
@@ -426,14 +543,28 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                                     <tr>
                                         <td></td>
                                         <td></td>
+                                        <td></td>
                                         </tr>
                                     <tr>
                                         <td></td>
                                         <td></td>
+                                        <td></td>
                                         </tr>
                                     </table>
-                                     <h4>Other Information</h4>
-                                    <table>
+									<hr>
+                                        </div>
+                                    </div>
+                                </div>
+                                     <hr>
+                                    <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOI" class="collapsed">Other Information</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseOI" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <table>
                                         <tr>
                                         <th>Special Skills and Hobbies</th>
                                         <th>Non-Academic Distinctions/Recognition</th>
@@ -489,7 +620,19 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                                         <td></td>
                                         </tr>
                                     </table>
+                                        </div>
+                                    </div>
                                 </div>
+                                     
+                                    		<div style="text-align: right">
+												<a href="#page1" data-toggle="tab" class="btn btn-default btn-sm">1</a>
+												<a href="#page2" data-toggle="tab" class="btn btn-default btn-sm">2</a>
+												<a href="#page4" data-toggle="tab" class="btn btn-default btn-sm">4</a>
+											</div>
+                                </div>
+								
+									<!---End Of Page3 -->
+								
                                 <div class="tab-pane fade" id="page4">
                                     <h4>PDS Questionaire</h4>
                                     <table>
@@ -669,6 +812,11 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                            
                                     </table>  
                                     </table>
+											<div style="text-align: right">
+												<a href="#page1" data-toggle="tab" class="btn btn-default btn-sm">1</a>
+												<a href="#page2" data-toggle="tab" class="btn btn-default btn-sm">2</a>
+												<a href="#page3" data-toggle="tab" class="btn btn-default btn-sm">3</a>
+											</div>
                                 </div>
                             </div>
                         </div>
@@ -680,6 +828,7 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
       </div>
             
         </div>
+	  </div>
                
     </div>
              <!-- /. PAGE INNER  -->
