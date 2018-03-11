@@ -64,15 +64,6 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
         <!-- /. NAV SIDE  -->
         <div id="page-wrapper" >
             <div id="page-inner">
-                <div class="row">
-                    <div class="col-md-12">
-                     <h2>Leave Application and Status</h2>   
-                        <h5>Welcome Jhon Deo , Love to see you back. </h5>
-                       
-                    </div>
-                </div>
-                 <!-- /. ROW  -->
-                 <hr />
                
             <div class="row">
                 <div class="col-md-12">
@@ -86,8 +77,8 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                                 <table class="table table-striped table-bordered table-hover" id="dataTables-example">
                                     <thead>
                                         <tr>
-                                            <th>First Name</th>
-                                            <th>Last Name</th>
+                                            <th>Name</th>
+                                            <th>Inclusive dates</th>
                                             <th>Type of Leave</th>
                                             <th>Date of Application</th>
                                             <th>Details</th>
@@ -577,8 +568,8 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                                     <thead>
                                         <tr>
                                             <th>#</th>
-                                            <th>First Name</th>
-                                            <th>Last Name</th>
+                                            <th>Name</th>
+                                            <th>Date of Action</th>
                                             <th>Type of Leave</th>
                                             <th>Status</th>
                                             <th>Details</th>

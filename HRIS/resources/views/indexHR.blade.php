@@ -63,14 +63,7 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="indexHR" class="btn
         <!-- /. NAV SIDE  -->
         <div id="page-wrapper" >
             <div id="page-inner">
-                <div class="row">
-                    <div class="col-md-12">
-                     <h2>Admin Dashboard</h2>   
-                        <h5>Welcome Jhon Deo , Love to see you back. </h5>
-                    </div>
-                </div>              
-                 <!-- /. ROW  -->
-                  <hr />
+                
                 <div class="row">
                 <div class="col-md-3 col-sm-6 col-xs-6">           
 			<div class="panel panel-back noti-box">

@@ -67,7 +67,7 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                 <div class="row">
                     <div class="col-md-12">
                      <div class="form-group input-group">
-                                            <input type="text" class="form-control" value="Manilyn Monroe">
+                                            <input type="text" class="form-control" value="Monroe">
                                             <span class="input-group-btn">
                                                 <button class="btn btn-default" type="button"><i class="fa fa-search"></i>
                                                 </button>
@@ -82,23 +82,129 @@ font-size: 16px;"> Last access : 30 May 2014 &nbsp; <a href="#" class="btn btn-d
                         <div class="panel-body">
                             <ul class="chat-box">
                                 <li class="left clearfix">
-                                    <a href="EmpProf.html">
+                                    <a href="EmpProf">
                                     <span class="chat-img pull-left">
                                         <img src="assets/img/1.png" alt="User" class="img-circle" />
                                         </span></a>
                                     <div class="chat-body">                                        
                                             <a href="EmpProf"><strong >Manilyn Monroe</strong></a>                                    
                                         <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                                            ID: xxxxx Status: xxxxxx Position: xxxxxxx Gender: XXXXXX
                                         </p>
                                     </div>
                                 </li>                
-                                
+                                <li class="left clearfix">
+                                    
+                                    <span class="chat-img pull-left">
+                                        <img src="assets/img/1.png" alt="User" class="img-circle" />
+                                        </span>
+                                    <div class="chat-body">                                        
+                                            <a href="EmpProf"><strong >Cindy Monroe</strong></a>                                    
+                                        <p>
+                                            ID: xxxxx Status: xxxxxx Position: xxxxxxx Gender: XXXXXX
+                                        </p>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
 
             <!-- End of Search Res  -->
+				<hr>
             
+				<div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseEmployee" class="collapsed">Employees</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseEmployee" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <div class="row">
+													<div class="col-md-12">
+														  <!--    Striped Rows Table  -->
+														<div class="panel panel-default">
+															<div class="panel-heading">
+																Sort By:	
+												<!-- status -->
+														<div class="btn-group">
+														  <button class="btn btn-default">Status</button>
+														  <button data-toggle="dropdown" class="btn btn-default dropdown-toggle"><span class="caret"></span></button>
+														  <ul class="dropdown-menu">
+															<li><a href="#">Deceased</a></li>
+															<li><a href="#">Terminated</a></li>
+															<li><a href="#">Resigned</a></li>
+															<li><a href="#">Retired</a></li>
+															<li class="divider"></li>
+															<li><a href="#">Separated link</a></li>
+														  </ul>
+														</div>
+									  			<!--division -->
+														<div class="btn-group">
+														  <button class="btn btn-default">Division</button>
+														  <button data-toggle="dropdown" class="btn btn-default dropdown-toggle"><span class="caret"></span></button>
+														  <ul class="dropdown-menu">
+															<li><a href="#">Office of the Regional Director</a></li>
+															<li><a href="#">Finance and Administrative Division</a></li>
+															<li><a href="#">Local Government Capacity Development Division</a></li>
+															<li><a href="#">Local Government Monitoring and Evaluation Division</a></li>
+															<li class="divider"></li>
+															<li><a href="#">Separated link</a></li>
+														  </ul>
+														</div>
+										
+														
+															</div>
+															<div class="panel-body">
+																<div class="table-responsive">
+																	<table class="table table-striped">
+																		<thead>
+																			<tr>
+																				<th>#</th>
+																				<th>Name</th>
+																				<th>Status</th>
+																				<th>Position</th>
+																				<th>Division</th>
+																				<th>Action</th>
+																				
+																			</tr>
+																		</thead>
+																		<tbody>
+																			<tr>
+																				<td>1</td>
+																				<td>Mark Benitez</td>
+																				<td>Resigned</td>
+																				<td>@mdo</td>
+																				<td>@mdo</td>
+																				<td><a href="#" class="btn btn-info btn-xs">View Profile</a></td>
+																			</tr>
+																			<tr>
+																				<td>2</td>
+																				<td>Jacob Black</td>
+																				<td>Terminated</td>
+																				<td>retro</td>
+																				<td>retro</td>
+																				<td><a href="#" class="btn btn-info btn-xs">View Profile</a></td>
+																			</tr>
+																			<tr>
+																				<td>3</td>
+																				<td>Larry Barry</td>
+																				<td>Barry</td>
+																				<td>Pix</td>
+																				<td>Pix</td>
+																				<td><a href="#" class="btn btn-info btn-xs">View Profile</a></td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</div>
+															</div>
+														</div>
+														<!--  End  Striped Rows Table  -->
+												</div>
+											</div>
+                                        </div>
+                                    </div>
+                                </div>
+				
         </div>
                
     </div>
